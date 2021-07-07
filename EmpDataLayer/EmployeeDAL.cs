@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SqlClient; //SQL Data Provider 
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +16,8 @@ namespace EmpDataLayer
 
             bool flag = true;
             SqlConnection connection = new SqlConnection("data source=.; database = Week2Review;integrated security = true");
+            //Suppose if you use sql server authentication then you need to specify id and password and connection string would look like below 
+            // string path = "data source = . ; database = Week2Review; user id = idval ; password = myPassword";
             try
             {
                 string query = "CREATE TABLE " + name2 + " (employeId int Primary key, name varchar(20) Not Null ,designation varchar(20) ," +
