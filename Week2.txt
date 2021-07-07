@@ -1,0 +1,19 @@
+
+2.ADO .NET
+
+Perfrom CRUD operations using ADO.net ,
+Follow N-tier Architecture to solve the problem
+Enities :
+1.Entities :
+	Employee .[employeeid,name,designation,dateofjoining,departmentId]
+	Department.[departmentid,departmentname,locationname]
+
+
+Tasks: using ADO.net
+1.Create Tables (Employee,Department)
+2.Insert data into the tables created 
+3.Get Employee and Department details from database using ADO.net
+4.Update Employee data by designation
+5.Delete Employee data by Id
+
+Use All SQL KOs-Create, insertinto,delete,update,groupby,joins,storedprocedures and functions in your queries 
