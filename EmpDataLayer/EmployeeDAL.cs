@@ -179,7 +179,7 @@ namespace EmpDataLayer
                 
 
                 SqlCommand command = new SqlCommand("uspDeleteEmployee", connection);
-                command.CommandType = CommandType.StoredProcedure;
+                command.CommandType = CommandType.StoredProcedure;// we need to tell command object that it's going to execute a stored procedure 
                 command.Parameters.AddWithValue("@Id", id); //id is the parameter for stored procedure
               
                 connection.Open();
